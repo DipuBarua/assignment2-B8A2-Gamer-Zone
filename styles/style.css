@@ -193,6 +193,49 @@ nav {
 }
 
 
+/* gallery section start  */
+
+.item {
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    color: #0B0223;
+    font-size: 1.25;
+    font-weight: 600;
+    display: flex;
+}
+
+.item:hover {
+    transform: scale(1.25);
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+}
+
+.five-items {
+    display: flex;
+    gap: 30px;
+}
+
+.four-items {
+    display: flex;
+    gap: 30px;
+}
+
+.gallery-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.gallery {
+    padding: 100px 50px;
+}
+
+
+/* Footer section start  */
+
+
 /* responsive for mobile screen  */
 
 @media screen and (max-width: 576px) {
