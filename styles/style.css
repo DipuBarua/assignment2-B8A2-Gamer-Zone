@@ -48,6 +48,7 @@ nav {
     text-align: center;
     font-size: 1.125rem;
     font-weight: 500;
+    align-items: center;
 }
 
 .menus-btn a {
@@ -143,12 +144,52 @@ nav {
 
 .card>img {
     width: 100%;
+    cursor: pointer;
 }
 
 .card>p {
     color: #534C64;
     font-size: 1.25rem;
     font-weight: 500;
+}
+
+
+/* play instantly or play ground section start */
+
+.play-ground {
+    display: flex;
+    align-items: center;
+    /* gap: 100px; */
+    /* margin-top: 100px; */
+}
+
+.play-ground-content {
+    margin-right: 50px;
+}
+
+.play-ground-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+    text-align: right;
+}
+
+.play-ground-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.play-ground-image img {
+    height: 90%;
+    margin-left: 70px;
+    margin-top: 120px;
+}
+
+.play-ground-badge {
+    position: relative;
+    bottom: 140px;
 }
 
 
@@ -169,6 +210,15 @@ nav {
     .cards-container {
         grid-template-columns: 1fr;
     }
+    .play-ground {
+        flex-direction: column;
+    }
+    .play-ground-title {
+        text-align: center;
+    }
+    .play-ground-description {
+        text-align: center;
+    }
 }
 
 
@@ -188,5 +238,17 @@ nav {
     }
     .cards-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .play-ground {
+        flex-direction: column;
+    }
+    .play-ground-title {
+        text-align: center;
+    }
+    .play-ground-description {
+        text-align: center;
+    }
+    .play-ground-image img {
+        margin-top: 0px;
     }
 }
