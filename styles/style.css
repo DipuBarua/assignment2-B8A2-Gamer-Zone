@@ -166,6 +166,9 @@ nav {
         padding: 0;
         text-align: center;
     }
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 
@@ -182,5 +185,8 @@ nav {
     .banner-content {
         padding: 0;
         text-align: center;
+    }
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
