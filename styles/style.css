@@ -58,7 +58,7 @@ nav {
 
 .follow-btn {
     border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10);
+    background-color: rgba(11, 2, 35, 0.10);
     padding: 18px 24px;
 }
 
@@ -234,6 +234,54 @@ nav {
 
 
 /* Footer section start  */
+
+footer {
+    text-align: center;
+    background-color: #0B0223;
+    color: #FFF;
+    padding: 100px 0;
+}
+
+.footer-logo-content {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer-logo-content>h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer-gallery ul,
+.footer-policy ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer-gallery a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-policy a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-social-media {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 
 
 /* responsive for mobile screen  */
