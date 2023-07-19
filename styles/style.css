@@ -12,6 +12,10 @@
     color: #FF42A5;
 }
 
+.primary-gradient {
+    color: #F948B2, #8758F1;
+}
+
 
 /* navbar start  */
 
@@ -110,6 +114,41 @@ nav {
 
 .banner-img img {
     width: 100%;
+}
+
+
+/* Gaming card section start  */
+
+.cards-section-title {
+    text-align: center;
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.cards-section-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    align-items: center;
+}
+
+.card>img {
+    width: 100%;
+}
+
+.card>p {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 
