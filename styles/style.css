@@ -310,6 +310,23 @@ footer {
     .play-ground-description {
         text-align: center;
     }
+    .five-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .four-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-gallery ul,
+    .footer-social-media {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-policy ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
@@ -341,5 +358,22 @@ footer {
     }
     .play-ground-image img {
         margin-top: 0px;
+    }
+    .five-items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .four-items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-gallery ul,
+    .footer-social-media {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-policy ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
