@@ -100,20 +100,72 @@ nav {
     border: none;
     border-radius: 48px;
     padding: 20px 40px;
+    font-size: 1.25rem;
+    color: #FFF;
+    font-weight: 600;
 }
 
 .sign {
     background-color: #FF42A5;
-    color: #FFFFFF;
 }
 
 .rogue {
     background-color: #4EC5F7;
-    color: #FFFFFF;
 }
 
 .banner-img img {
     width: 100%;
+}
+
+
+/* about gamer section start from here  */
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: right;
+    background-color: #fff;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    padding-right: 20px;
+}
+
+.about-gamer-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.about-gamer-description {
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.about-btn {
+    border-radius: 48px;
+    border: none;
+    padding: 20px 40px;
+    color: #FFF;
+    background-color: #FF42A5;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.about-tag {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.bold-tag {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 
@@ -336,6 +388,10 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+    .about {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
 }
 
 
@@ -388,5 +444,9 @@ footer {
     .footer-policy ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .about {
+        grid-template-columns: 1fr;
+        text-align: center;
     }
 }
