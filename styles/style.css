@@ -56,10 +56,11 @@ nav {
     text-decoration: none;
 }
 
-.follow-btn {
+.follow-btn button {
     border-radius: 8px;
     background-color: rgba(11, 2, 35, 0.10);
     padding: 18px 24px;
+    border: none;
 }
 
 
@@ -138,6 +139,7 @@ nav {
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     align-items: center;
+    padding: 20px;
 }
 
 .card img:hover {
@@ -165,7 +167,7 @@ nav {
 }
 
 .play-ground-content {
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .play-ground-title {
@@ -182,7 +184,7 @@ nav {
     text-align: right;
 }
 
-.play-ground-image img {
+.play-ground-large-badge img {
     height: 90%;
     margin-left: 70px;
     margin-top: 120px;
@@ -204,6 +206,7 @@ nav {
     font-size: 1rem;
     font-weight: 600;
     display: flex;
+    align-items: center;
 }
 
 .item:hover {
@@ -214,12 +217,12 @@ nav {
 
 .five-items {
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
 .four-items {
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
 .gallery-items {
@@ -231,6 +234,7 @@ nav {
 
 .gallery {
     padding: 100px 50px;
+    margin: 0px 120px;
 }
 
 
@@ -365,7 +369,7 @@ footer {
     .play-ground-description {
         text-align: center;
     }
-    .play-ground-image img {
+    .play-ground-large-badge img {
         margin-top: 0px;
     }
     .five-items {
